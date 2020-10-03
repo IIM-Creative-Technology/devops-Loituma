@@ -30,9 +30,10 @@
       <span>
             <h4>Vidéo de la réalisation:</h4>
         </span>
-      <video controls muted>
-        <source src="@/assets/projets/padg/padg-video.mp4" type="video/mp4">
-      </video>
+      <p>Video</p>
+<!--      <video controls muted>-->
+<!--        <source src="@/assets/projets/padg/padg-video.mp4" type="video/mp4">-->
+<!--      </video>-->
     </div>
   </div>
 </template>
