@@ -15,7 +15,6 @@ jobs:
         run: |
           sudo npm ci
           sudo npm run build
-          sudo npm install sass-loader node-sass
           sudo npm run lint
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.5.6

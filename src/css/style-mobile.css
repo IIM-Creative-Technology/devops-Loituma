@@ -1,6 +1,3 @@
-$color-black: #000000;
-$color-white: #FFFFFF;
-
 @media (max-width: 767px) {
   header {
     width: 97%;
@@ -30,8 +27,8 @@ $color-white: #FFFFFF;
     left: 0;
     height: 100%;
     width: 40%;
-    background-color: $color-black;
-    color: $color-white;
+    background-color: #000000;
+    color: #FFFFFF;
     padding-top: 4%;
     text-align: center;
     display: none;
@@ -47,40 +44,40 @@ $color-white: #FFFFFF;
   }
 
   header div#nav-mobile div#sousNav-mobile div{
-    background: -webkit-linear-gradient(transparent 60%, $color-white 40%);
+    background: -webkit-linear-gradient(transparent 60%, #FFFFFF 40%);
     -webkit-text-fill-color: transparent;
     display: inline;
   }
 
   header div#nav-mobile div#sousNav-mobile div span{
-    background: -webkit-linear-gradient($color-white 60%, $color-black 40%);
+    background: -webkit-linear-gradient(#FFFFFF 60%, #000000 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   header div#nav-mobile .link-menu_actived2 {
-    background: -webkit-linear-gradient(transparent 60%, $color-white 40%);
+    background: -webkit-linear-gradient(transparent 60%, #FFFFFF 40%);
     -webkit-text-fill-color: transparent;
     display: inline;
   }
 
   header div#nav-mobile .link-menu_actived2 span {
-    background: -webkit-linear-gradient($color-white 60%, $color-black 40%);
+    background: -webkit-linear-gradient(#FFFFFF 60%, #000000 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   header div#nav-mobile a{
-    color: $color-white;
+    color: #FFFFFF;
   }
 
   header div#nav-mobile div#sousNav-mobile ul a:hover{
-    background: -webkit-linear-gradient(transparent 60%, $color-white 40%);
+    background: -webkit-linear-gradient(transparent 60%, #FFFFFF 40%);
     -webkit-text-fill-color: transparent;
   }
 
   header div#nav-mobile div#sousNav-mobile ul a:hover span{
-    background: -webkit-linear-gradient($color-white 60%, $color-black 40%);
+    background: -webkit-linear-gradient(#FFFFFF 60%, #000000 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

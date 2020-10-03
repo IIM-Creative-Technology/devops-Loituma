@@ -40,11 +40,11 @@
 </template>
 
 <script>
-  import '@/scss/style.scss'
-  import '@/scss/style-mobile.scss'
-  import '@/scss/style-768.scss'
-  import '@/scss/style-992.scss'
-  import '@/scss/style-1200.scss'
+  import '@/css/style.css'
+  import '@/css/style-mobile.css'
+  import '@/css/style-768.css'
+  import '@/css/style-992.css'
+  import '@/css/style-1200.css'
 
   export default {
     methods: {
