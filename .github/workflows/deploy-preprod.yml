@@ -20,10 +20,10 @@ jobs:
 #          sudo npm run lint
 
       - name: Run ESLint
-          run: npm run lint
+          run: sudo npm run lint
 
       - name: Run unit tests
-        run: npm run test:unit
+        run: sudo npm run test:unit
 
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.5.6
