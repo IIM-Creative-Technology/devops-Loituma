@@ -14,8 +14,7 @@ jobs:
         uses: actions/setup-node@master
 
       - name: Install Packages
-        run: |
-          sudo npm ci
+        run: sudo npm ci
 
       - name: Run ESLint
         run: sudo npm run lint

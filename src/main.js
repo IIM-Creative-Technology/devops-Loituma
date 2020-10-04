@@ -35,9 +35,11 @@ const router = new VueRouter({
       component: About
     },{
       path: '/github',
+      name: 'github',
       beforeEnter() {location.href = 'http://github.com/loituma'}
     },{
       path: '/linkedin',
+      name: 'linkedin',
       beforeEnter() {location.href = 'https://www.linkedin.com/in/aymeric-derchain/'}
     },
     { path: '/stage/bts1-upmc', name: 'stage-bts1', component: Stage_bts1 },
