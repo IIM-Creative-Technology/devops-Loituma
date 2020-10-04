@@ -20,7 +20,7 @@ jobs:
 #          sudo npm run lint
 
       - name: Run ESLint
-          run: sudo npm run lint
+        run: sudo npm run lint
 
       - name: Run unit tests
         run: sudo npm run test:unit
