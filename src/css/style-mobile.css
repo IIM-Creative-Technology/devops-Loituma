@@ -1,0 +1,195 @@
+@media (max-width: 767px) {
+  header {
+    width: 97%;
+  }
+
+  header div#nav-menu {
+    display: none;
+  }
+
+  header div#nav-mobile {
+    width: 46.3333%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  header div#nav-mobile {
+    font-size: 16px;
+    padding: 4px;
+    white-space: nowrap;
+  }
+
+  header div#nav-mobile div#sousNav-mobile{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 4%;
+    text-align: center;
+    display: none;
+  }
+
+  header div#nav-mobile div ul{
+    max-width: 100%;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: 50px;
+    line-height: 45px;
+  }
+
+  header div#nav-mobile div#sousNav-mobile div{
+    background: -webkit-linear-gradient(transparent 60%, #FFFFFF 40%);
+    -webkit-text-fill-color: transparent;
+    display: inline;
+  }
+
+  header div#nav-mobile div#sousNav-mobile div span{
+    background: -webkit-linear-gradient(#FFFFFF 60%, #000000 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  header div#nav-mobile .link-menu_actived2 {
+    background: -webkit-linear-gradient(transparent 60%, #FFFFFF 40%);
+    -webkit-text-fill-color: transparent;
+    display: inline;
+  }
+
+  header div#nav-mobile .link-menu_actived2 span {
+    background: -webkit-linear-gradient(#FFFFFF 60%, #000000 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  header div#nav-mobile a{
+    color: #FFFFFF;
+  }
+
+  header div#nav-mobile div#sousNav-mobile ul a:hover{
+    background: -webkit-linear-gradient(transparent 60%, #FFFFFF 40%);
+    -webkit-text-fill-color: transparent;
+  }
+
+  header div#nav-mobile div#sousNav-mobile ul a:hover span{
+    background: -webkit-linear-gradient(#FFFFFF 60%, #000000 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  header div#nav-logo {
+    width: 20.3333%;
+  }
+  header div#nav-logo a {
+    width: 37px;
+  }
+
+  header div#nav-rs {
+    width: 46.3333%;
+  }
+
+  #contenu div.rect-section {
+    width: 97%;
+    height: 150px;
+  }
+
+  #contenu div.rect-section div.rect-section-text {
+    font-size: 17px;
+  }
+
+  #contenu div.rect-section div.rect-section-text p {
+    margin-bottom: 20%;
+  }
+
+  div.rect-section div.rect-section-img {
+    width: 60%;
+    overflow: hidden;
+  }
+
+  div.rect-section div.rect-section-img img{
+    transform: scale(1.15);
+  }
+
+  div#contenu-projets {
+    width: 70%;
+  }
+
+  div#contenu-projets div.rect-section-mini {
+    width: 100%;
+    height: 175px;
+  }
+
+  div#contenu-projets-page {
+    width: 95%;
+  }
+
+  div#contenu-projets-page span {
+    width: 85%;
+  }
+
+  div#contenu-projets-page video {
+    width: 95%;
+  }
+
+  #caroussel {
+    width: 100%;
+  }
+
+  #caroussel div.caroussel-preview img.img_preview {
+    width: 70px;
+    margin: 2px 2px;
+    max-height: 40px;
+  }
+
+  div.about-img {
+    width: 95%;
+  }
+
+  div#contenu-about-page {
+    width: 95%;
+  }
+
+  div#contenu-about-page span {
+    width: 85%;
+  }
+
+  div.about-img img {
+    width: 20%;
+  }
+
+  div#contenu-stage {
+    width: 70%;
+  }
+
+  div#contenu-stage div.rect-section-mini {
+    width: 100%;
+    height: 175px;
+  }
+
+  div#contenu-stage-page {
+    width: 95%;
+  }
+
+  div#contenu-stage-page span {
+    width: 85%;
+  }
+
+  div#contenu-stage-page video {
+    width: 95%;
+  }
+
+  #caroussel {
+    width: 100%;
+  }
+
+  #caroussel div.caroussel-preview img.img_preview {
+    width: 70px;
+    margin: 2px 2px;
+    max-height: 40px;
+  }
+}

@@ -9,12 +9,13 @@ jobs:
     steps:
       - name: Init project
         uses: actions/checkout@v2
+
       - name: Setup Nodejs
         uses: actions/setup-node@master
-      - name: Install Packages and Build Application
-        run: |
-          sudo npm ci
-          sudo npm run build
+
+      - name: Install Packages
+        run: sudo npm ci
+
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.5.6
         with:
