@@ -1,0 +1,19 @@
+name: Test on Pull Request
+on:
+  pull_request:
+    types: [opened]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Init project
+        uses: actions/checkout@v2
+
+      - name: Setup Nodejs
+        uses: actions/setup-node@master
+
+      - name: Install Packages
+        run: sudo npm ci
+
+      - name: Run ESLint
+        run: sudo npm run lint
