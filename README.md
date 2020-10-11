@@ -21,5 +21,6 @@ Il y a une branche pour la production et une pour la preproduction.
 - `Init project` permet d'accéder à notre repository.
 - `Setup Nodejs` permet d'installer Nodejs.
 - `Install Packages` installe les package du projet.
+- `Build Application` construit l'application a partir du package.json.
 - `Run ESLint` permet de test la qualité du code.
 - `Deploy to Heroku` deploy le projet sur Heroku.
