@@ -15,5 +15,8 @@ jobs:
       - name: Install Packages
         run: sudo npm ci
 
+      - name: Build Application
+        run: sudo npm run build
+
       - name: Run ESLint
         run: sudo npm run lint
